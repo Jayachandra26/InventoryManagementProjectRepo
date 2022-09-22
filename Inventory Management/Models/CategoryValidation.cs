@@ -13,6 +13,7 @@ namespace WebApplication1.Models
 
         public class CategoryMetaData
         {
+            [Required]
             [DisplayName("Category Name")]
             public string Category1 { get; set; }
         }

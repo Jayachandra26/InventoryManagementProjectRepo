@@ -12,6 +12,7 @@ namespace WebApplication1.Models
     {
         public class BrandMetaData
         {
+            [Required]
             [DisplayName("Brand Name")]
             public string Brand1 { get; set; }
         }
